@@ -1,4 +1,4 @@
-import * as Gluon from "../../gluon/index.js";
+import * as Gluon from "../gluon/index.js";
 import initCosmetics from "./mods/cosmetics.js";
 
 (async () => {

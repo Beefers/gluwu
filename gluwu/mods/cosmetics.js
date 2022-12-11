@@ -2,7 +2,7 @@ import logger from "../lib/logger.js";
 import { addPersistentStyle } from "../lib/stylesheet.js";
 
 const stylesheet = `
-    #app > div > div:first-child, #app > div > div:last-child > div:first-child {
+    #app > div:first-child > div:first-child, #app > div > div:last-child > div:first-child {
         display: none !important;
     }
 
